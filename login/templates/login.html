@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Login To ABC.com</title>
+    <link rel="stylesheet" href="{% static 'login.css' %}">
+</head>
+<body>
+<div id="login-form">
+<h2> Login </h2>
+<form action="/login" method="POST">
+     {% csrf_token %}
+    <div class="form-container">
+        <fieldset>
+    {{ form.user_email }}
+    {{ form.user_password }}
+        </fieldset>
+        </div>
+
+<div class="submit-container">
+        <input id="btn-submit" type="submit" value="GET ME IN">
+    </div>
+</form>
+    <div class="link-container">
+        <span id="lnk-forget-pwd"> <a href="#">Forgot Password?</a> | <a href="#"> Join Us </a></span>
+    </div>
+    </div>
+</body>
+</html>

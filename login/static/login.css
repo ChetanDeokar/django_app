@@ -1,0 +1,53 @@
+body{
+background: url('/static/images/login-back.jpg') no-repeat center center fixed;
+background-repeat: no-repeat;
+background-size: cover;
+padding-left: 30%;
+padding-top: 10%;
+font-family: sans-serif;
+}
+
+div#login-form{
+background-color: white;
+width: 50%;
+padding-left: 45px;
+padding-right: 45px;
+padding-bottom: 45px;
+padding-top: 40px;
+border-radius: 10px;
+}
+
+#btn-submit{
+border-radius: 5px;
+border-color: #2a56c6;
+background-color: #2a56c6;
+font-family: sans-serif;
+color: white;
+margin-top: 5px;
+margin-left: 70%;
+font-weight: bolder;
+font-size: medium;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.form-controls{
+border: none;
+width: 100%;
+background-color: lightgrey;
+border-left: 8px solid darkgreen;
+padding: 10px;
+margin-top: 10px;
+font-size: inherit;
+}
+
+.form-container fieldset{
+border: none
+}
+
+a, a:visited{
+text-decoration: none;
+color: blue;
+}
